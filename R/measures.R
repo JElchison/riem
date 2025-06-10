@@ -188,6 +188,7 @@ riem_measures <- function(
     col.names = col_names,
     na.strings = c("", "NA", "M"),
     sep = "\t",
+    quote = "",
     stringsAsFactors = FALSE,
     fill = TRUE
   )
